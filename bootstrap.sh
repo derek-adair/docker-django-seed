@@ -5,3 +5,4 @@ docker-compose run --rm web django-admin startproject $1 . \
     && git init \
     && git add . \
     && git commit -m "Bootstrapped $1"
+    && rm bootstrap.sh
